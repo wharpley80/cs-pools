@@ -29,44 +29,81 @@ include(ROOT_PATH . 'inc/header.php');
     <span class="icon-next"></span>
   </a>
 </div>
+<div class="modal fade modal" id="imagemodal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <img class="modal-logo" src="<?php echo BASE_URL; ?>img/logo.png">
+        <h3 class="call">Call For a FREE Estimate! (561) 441-9910</h3> 
+      </div>
+      <div class="modal-body" id="my-body">
+        <img src="" id="imagepreview" class="img-responsive">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> 
 <div class="container">
   <h1 class="blue-head">Infinity Edge</h1>
   <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
-      <img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_1.jpg">
+      <a href="#" class="thumbnail" data-toggle="modal"><span data-id= "i1"></span>
+        <img class="view-img" id="imageresourcei1" src="<?php echo BASE_URL; ?>img/infinity/infi_1.jpg">
+      </a>
     </div>
     <div class="col-md-4" id="photo-grid">
-      <img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_2.jpg">
+      <a href="#" class="thumbnail" data-toggle="modal"><span data-id= "i2"></span>
+        <img class="view-img" id="imageresourcei2" src="<?php echo BASE_URL; ?>img/infinity/infi_2.jpg">
+      </a>
     </div>
     <div class="col-md-4" id="photo-grid">
-      <img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_3.jpg">
-    </div>
-  </div>
-  <div class="row" id="grid-row">
-    <div class="col-md-4" id="photo-grid">
-      <img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_4.JPG">
-    </div>
-    <div class="col-md-4" id="photo-grid">
-      <img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_5.JPG">
-    </div>
-    <div class="col-md-4" id="photo-grid">
-      <img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_6.JPG">
+      <a href="#" class="thumbnail" data-toggle="modal"><span data-id= "i3"></span>
+        <img class="view-img" id="imageresourcei3" src="<?php echo BASE_URL; ?>img/infinity/infi_3.jpg">
+      </a>
     </div>
   </div>
   <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
-      <img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_7.JPG">
+      <a href="#" class="thumbnail" data-toggle="modal"><span data-id= "i4"></span>
+        <img class="view-img" id="imageresourcei4" src="<?php echo BASE_URL; ?>img/infinity/infi_4.JPG">
+      </a>
     </div>
     <div class="col-md-4" id="photo-grid">
-    	<img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_8.jpg">
+      <a href="#" class="thumbnail" data-toggle="modal"><span data-id= "i5"></span>
+        <img class="view-img" id="imageresourcei5" src="<?php echo BASE_URL; ?>img/infinity/infi_5.JPG">
+      </a>
     </div>
     <div class="col-md-4" id="photo-grid">
-    	<img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_9.JPG">
+      <a href="#" class="thumbnail" data-toggle="modal"><span data-id= "i6"></span>
+        <img class="view-img" id="imageresourcei6" src="<?php echo BASE_URL; ?>img/infinity/infi_6.JPG">
+      </a>
+    </div>
+  </div>
+  <div class="row" id="grid-row">
+    <div class="col-md-4" id="photo-grid">
+      <a href="#" class="thumbnail" data-toggle="modal"><span data-id= "i7"></span>
+        <img class="view-img" id="imageresourcei7" src="<?php echo BASE_URL; ?>img/infinity/infi_7.JPG">
+      </a>
+    </div>
+    <div class="col-md-4" id="photo-grid">
+      <a href="#" class="thumbnail" data-toggle="modal"><span data-id= "i8"></span>
+    	 <img class="view-img" id="imageresourcei8" src="<?php echo BASE_URL; ?>img/infinity/infi_8.jpg">
+      </a>
+    </div>
+    <div class="col-md-4" id="photo-grid">
+      <a href="#" class="thumbnail" data-toggle="modal"><span data-id= "i9"></span>
+    	 <img class="view-img" id="imageresourcei9" src="<?php echo BASE_URL; ?>img/infinity/infi_9.JPG">
+      </a>
     </div>
   </div>
     <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
-      <img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_10.JPG">
+      <a href="#" class="thumbnail" data-toggle="modal"><span data-id= "i10"></span>
+        <img class="view-img" id="imageresourcei10" src="<?php echo BASE_URL; ?>img/infinity/infi_10.JPG">
+      </a>
     </div>
     <div class="col-md-4" id="photo-grid">
     </div>

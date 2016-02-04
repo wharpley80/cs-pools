@@ -12,7 +12,7 @@ h1 {
 
 .blue-head {
 	color: #26327b;
-	padding-top: 30px;
+	padding: 30px 0;
 }
 
 h2 {
@@ -67,7 +67,7 @@ span.glyphicon {
 .main-logo {
 	width: 25%;
 	max-height: 200px;
-	margin-top: -40px;
+	margin-top: -45px;
 }
 
 #main-links {
@@ -98,6 +98,22 @@ span.glyphicon {
 .social-icon {
 	height: 40px;
 	width: 40px;
+}
+
+/**************************
+      MODAL
+**************************/
+
+#imagepreview {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.modal-logo {
+	width: 30%;
+	margin-top: -5%;
+	margin-bottom: -5%;
 }
 
 /**************************
@@ -203,6 +219,10 @@ footer {
 		font-size: .75em
 	}
 
+	.call {
+  	font-size: .75em;
+  }
+
 	.navbar-toggle {
 		margin-right: 0;
 	}
@@ -264,7 +284,7 @@ footer {
 	}
 
   .call {
-  	font-size: .75em;
+  	font-size: .50em;
   }
 }
 
