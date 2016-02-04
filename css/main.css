@@ -7,11 +7,12 @@ body {
 h1 {
 	text-decoration: underline;
 	color: #fff;
-	padding-top: 30px;
+	
 }
 
 .blue-head {
 	color: #26327b;
+	padding-top: 30px;
 }
 
 h2 {
@@ -126,6 +127,11 @@ span.glyphicon {
 	padding: 5px;
 }
 
+#grid-row {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 /**************************
       FOOTER
 **************************/
@@ -138,7 +144,7 @@ span.glyphicon {
       rgba(38, 50, 123, 0.90), 
       rgba(38, 50, 123, 0.90)
     ),
-    url('../img/commercial/comm_10.JPG') no-repeat;
+    url('../img/residential/resident_1.JPG') no-repeat;
   background-size: 100% 100%;
   text-align: center;
 }

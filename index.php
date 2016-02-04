@@ -12,10 +12,10 @@ include(ROOT_PATH . 'inc/header.php');
     </ol>
     <div class="carousel-inner">
       <div class="item active">
-        <img src="img/carousel/IMG_0249.JPG" id="carousel-img">
+        <img src="img/commercial/comm_5.JPG" id="carousel-img">
       </div>
       <div class="item">
-        <img src="img/carousel/IMG_0250.JPG" id="carousel-img">
+        <img src="img/commercial/comm_7.JPG" id="carousel-img">
       </div>
       <div class="item">
         <img src="img/infinity/infi_10.JPG" id="carousel-img">
@@ -43,6 +43,21 @@ include(ROOT_PATH . 'inc/header.php');
   </div> 
   <div class="row">
     <div class="col-xs-12 hidden-md hidden-lg">
+      <h2>Residential</h2>
+      <a href="<?php echo BASE_URL; ?>residential/" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-eye-open"></span>VIEW MORE</a>
+    </div>
+    <div class="col-xs-12 col-md-6">
+      <a href="<?php echo BASE_URL; ?>residential/">
+        <img src="img/residential/resident_1.JPG" class="home-img">
+      </a>
+    </div>
+    <div class="col-md-6 hidden-xs hidden-sm">
+      <h2>Residential</h2>
+      <a href="<?php echo BASE_URL; ?>residential/" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-eye-open"></span>VIEW MORE</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
       <h2>Water Features</h2>
       <a href="<?php echo BASE_URL; ?>features/" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-eye-open"></span>VIEW MORE</a>
     </div>
@@ -51,13 +66,9 @@ include(ROOT_PATH . 'inc/header.php');
         <img src="img/features/feat_6.jpg" class="home-img">
       </a>
     </div>
-    <div class="col-md-6 hidden-xs hidden-sm">
-      <h2>Water Features</h2>
-      <a href="<?php echo BASE_URL; ?>features/" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-eye-open"></span>VIEW MORE</a>
-    </div>
   </div>
   <div class="row">
-    <div class="col-xs-12 col-md-6">
+    <div class="col-xs-12 hidden-md hidden-lg">
       <h2>Paver Decks</h2>
       <a href="<?php echo BASE_URL; ?>decks/" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-eye-open"></span>VIEW MORE</a>
     </div>
@@ -66,32 +77,36 @@ include(ROOT_PATH . 'inc/header.php');
         <img src="img/decks/deck_2.jpg" class="home-img">
       </a>
     </div>
+    <div class="col-md-6 hidden-xs hidden-sm">
+      <h2>Paver Decks</h2>
+      <a href="<?php echo BASE_URL; ?>decks/" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-eye-open"></span>VIEW MORE</a>
+    </div>
   </div>
   <div class="row">
-    <div class="col-xs-12 hidden-md hidden-lg">
+    <div class="col-xs-12 col-md-6">
       <h2>Spas</h2>
       <a href="<?php echo BASE_URL; ?>spas/" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-eye-open"></span>VIEW MORE</a>
     </div>
     <div class="col-xs-12 col-md-6">
       <a href="<?php echo BASE_URL; ?>spas/">
         <img src="img/spas/spa_9.jpg" class="home-img">
+      </a>
     </div>
-    <div class="col-md-6 hidden-xs hidden-sm">
-      <h2>Spas</h2>
-      <a href="<?php echo BASE_URL; ?>spas/" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-eye-open"></span>VIEW MORE</a>
-    </div>
-  </div>  
+  </div>
   <div class="row">
-    <div class="col-xs-12 col-md-6">
+    <div class="col-xs-12 hidden-md hidden-lg">
       <h2>Infinity Edge</h2>
-      <a href="<?php echo BASE_URL; ?>contacts/" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-eye-open"></span>VIEW MORE</a>
+      <a href="<?php echo BASE_URL; ?>infinity/" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-eye-open"></span>VIEW MORE</a>
     </div>
     <div class="col-xs-12 col-md-6">
       <a href="<?php echo BASE_URL; ?>infinity/">
         <img src="img/infinity/infi_10.JPG" class="home-img">
-      </a>
     </div>
-  </div>
+    <div class="col-md-6 hidden-xs hidden-sm">
+      <h2>Infinity Edge</h2>
+      <a href="<?php echo BASE_URL; ?>infinity/" class="btn btn-primary btn-md"><span class="glyphicon glyphicon-eye-open"></span>VIEW MORE</a>
+    </div>
+  </div>  
 </div>
 <div class="backdrop">
   <h1>About Us</h1>

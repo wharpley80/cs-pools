@@ -13,10 +13,10 @@ include(ROOT_PATH . 'inc/header.php');
     </ol>
     <div class="carousel-inner">
       <div class="item active">
-        <img src="<?php echo BASE_URL; ?>img/commercial/comm_10.JPG" id="carousel-img">
+        <img src="<?php echo BASE_URL; ?>img/commercial/comm_7.JPG" id="carousel-img">
       </div>
       <div class="item">
-        <img src="<?php echo BASE_URL; ?>img/commercial/comm_6.JPG" id="carousel-img">
+        <img src="<?php echo BASE_URL; ?>img/commercial/comm_3.JPG" id="carousel-img">
       </div>
       <div class="item">
         <img src="<?php echo BASE_URL; ?>img/commercial/comm_5.JPG" id="carousel-img">
@@ -30,21 +30,20 @@ include(ROOT_PATH . 'inc/header.php');
     <span class="icon-next"></span>
   </a>
 </div>
-
 <div class="container">
   <h1 class="blue-head">Commercial</h1>
-  <div class="row">
+  <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/commercial/comm_9.JPG">
     </div>
     <div class="col-md-4" id="photo-grid">
-      <img class="img-responsive" src="<?php echo BASE_URL; ?>img/commercial/comm_7.JPG">
+      <img class="img-responsive" src="<?php echo BASE_URL; ?>img/commercial/comm_6.JPG">
     </div>
     <div class="col-md-4" id="photo-grid">
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/commercial/comm_8.jpg">
     </div>
   </div>
-  <div class="row">
+  <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/commercial/comm_1.JPG">
     </div>
@@ -55,7 +54,7 @@ include(ROOT_PATH . 'inc/header.php');
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/commercial/comm_3.JPG">
     </div>
   </div>
-  <div class="row">
+  <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/commercial/comm_4.jpg">
     </div>

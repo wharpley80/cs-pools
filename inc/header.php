@@ -43,6 +43,10 @@
               echo " class=\"active\""; ?> >
           <a href="<?php echo BASE_URL; ?>commercial/" id="main-links">Commercial</a>
         </li>
+        <li <?php if ($thisPage=="resident") 
+              echo " class=\"active\""; ?> >
+          <a href="<?php echo BASE_URL; ?>residential/" id="main-links">Residential</a>
+        </li>
         <li <?php if ($thisPage=="features") 
               echo " class=\"active\""; ?> >
           <a href="<?php echo BASE_URL; ?>features/" id="main-links">Water Features</a>

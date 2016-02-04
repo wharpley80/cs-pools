@@ -31,7 +31,7 @@ include(ROOT_PATH . 'inc/header.php');
 </div>
 <div class="container">
   <h1 class="blue-head">Infinity Edge</h1>
-  <div class="row">
+  <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_1.jpg">
     </div>
@@ -42,7 +42,7 @@ include(ROOT_PATH . 'inc/header.php');
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_3.jpg">
     </div>
   </div>
-  <div class="row">
+  <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_4.JPG">
     </div>
@@ -53,7 +53,7 @@ include(ROOT_PATH . 'inc/header.php');
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_6.JPG">
     </div>
   </div>
-  <div class="row">
+  <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_7.JPG">
     </div>
@@ -64,7 +64,7 @@ include(ROOT_PATH . 'inc/header.php');
     	<img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_9.JPG">
     </div>
   </div>
-    <div class="row">
+    <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/infinity/infi_10.JPG">
     </div>

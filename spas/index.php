@@ -31,7 +31,7 @@ include(ROOT_PATH . 'inc/header.php');
 </div>
 <div class="container">
   <h1 class="blue-head">Spas</h1>
-  <div class="row">
+  <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/spas/spa_1.jpg">
     </div>
@@ -42,7 +42,7 @@ include(ROOT_PATH . 'inc/header.php');
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/spas/spa_3.JPG">
     </div>
   </div>
-  <div class="row">
+  <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/spas/spa_4.JPG">
     </div>
@@ -53,7 +53,7 @@ include(ROOT_PATH . 'inc/header.php');
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/spas/spa_6.jpg">
     </div>
   </div>
-  <div class="row">
+  <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/spas/spa_7.jpg">
     </div>
@@ -64,7 +64,7 @@ include(ROOT_PATH . 'inc/header.php');
     	<img class="img-responsive" src="<?php echo BASE_URL; ?>img/spas/spa_9.jpg">
     </div>
   </div>
-    <div class="row">
+    <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <img class="img-responsive" src="<?php echo BASE_URL; ?>img/spas/spa_10.jpg">
     </div>
