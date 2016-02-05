@@ -1,15 +1,19 @@
   <footer>
     <h1 class="blue-head">Contact</h1>
     <img class="contact-logo" src="<?php echo BASE_URL; ?>img/logo.png">
+    <h3>Call For a FREE Estimate! (561) 441-9910</h3> 
     <div class="foot-container">
       <div class="row">
-        <div class="col-xs-4">
+        <div class="col-xs-3">
           <h3>Contractor</h3>
         </div>
-        <div class="col-xs-4">
+        <div class="col-xs-3">
           <h3>Swimming Pool</h3>
         </div>
-        <div class="col-xs-4">
+        <div class="col-xs-3">
+          <h3>Refurbish</h3>
+        </div>
+        <div class="col-xs-3">
           <h3>Outdoor Recreation</h3>
         </div>
       </div>
@@ -30,7 +34,6 @@
       <p class="designer">&copy; 2016 William Harpley.</p>
     </a>
   </footer>
-
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="<?php echo BASE_URL; ?>js/bootstrap.min.js"></script>
     <script src="<?php echo BASE_URL; ?>js/scripts.js" type="text/javascript"></script>
