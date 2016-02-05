@@ -1,5 +1,4 @@
 body {
-	background-color: #26327b;
 	background-color: #fff;
 	font-family: 'Raleway', sans-serif;
 }
@@ -40,6 +39,7 @@ p {
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 120px;
 	text-align: center;
 }
 
@@ -119,8 +119,7 @@ span.glyphicon {
 **************************/
 
 .row {
- margin-top: 40px;
- margin-bottom: 40px;
+ margin-top: 120px;
  text-align: center;
 }
 
@@ -168,10 +167,21 @@ span.glyphicon {
 *****************************/
 
 footer {
-	background-color: #EDEDED;
+	/*background-color: #EDEDED;*/
+	background: url('../img/pool_blue.jpg') repeat-y;
   text-align: center;
   height: 100%;
   margin-top: -20px;
+}
+
+footer .blue-head, h3,p {
+	color: #000;
+	font-weight: bold;
+}
+
+footer .row {
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
 .contact-logo {
@@ -195,6 +205,10 @@ footer {
 	/*margin-top: 100px;*/
 }
 
+.designer:hover {
+	color: #fff;
+}
+
 /*****************************
 			MEDIA QUERIES
 *****************************/
@@ -215,6 +229,14 @@ footer {
 
 	p{
 		font-size: .75em
+	}
+
+	.container {
+		margin-bottom: 60px;
+	}
+
+	.row {
+		margin-top: 60px;
 	}
 
 	.call {
@@ -267,7 +289,7 @@ footer {
   }
 
   .navbar-header {
-		height: 100px;
+		height: 100%;
 	}
   h1 {
 		font-size: 1em;

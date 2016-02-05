@@ -108,7 +108,9 @@ include(ROOT_PATH . 'inc/header.php');
     </div>
   </div>  
 </div>
+<!--
 <div class="backdrop">
   <h1>About Us</h1>
 </div>
+-->
 <?php include(ROOT_PATH . 'inc/footer.php'); ?>
