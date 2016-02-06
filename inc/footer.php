@@ -1,7 +1,7 @@
   <footer>
     <h1 class="blue-head">Contact</h1>
     <img class="contact-logo" src="<?php echo BASE_URL; ?>img/logo.png">
-    <h3>Call For a FREE Estimate! (561) 441-9910</h3> 
+    <h3>Call For a Free Estimate! (561) 441-9910</h3> 
     <div class="foot-container">
       <div class="row">
         <div class="col-xs-3">
@@ -22,16 +22,16 @@
     <p>Email: cspooldesigns@aol.com</p>
     <p>Phone: (561) 441-9910</p>
     <a href="mailto:cspooldesigns@aol.com">
-      <img src="<?php echo BASE_URL; ?>img/icons/aol-mail.png" alt="AOL Logo" class='contact-icon'>
+      <img src="<?php echo BASE_URL; ?>img/icons/MailBox.png" alt="AOL Logo" class='contact-icon'>
     </a>
     <a href="https://www.facebook.com/CS-Pool-Designs-1558628061128519/">
       <img src="<?php echo BASE_URL; ?>img/icons/fb-icon.png" alt="FB-logo" class="contact-icon">
     </a>
     <a href="https://www.instagram.com/cspooldesigns/">
-      <img src="<?php echo BASE_URL; ?>img/icons/insta-icon.ico" alt="Insta-logo" class="contact-icon">
+      <img src="<?php echo BASE_URL; ?>img/icons/insta-icon.png" alt="Insta-logo" class="contact-icon">
     </a>
     <a href="http://williamharpleyportfolio.com/">
-      <p class="designer">&copy; 2016 William Harpley.</p>
+      <p class="designer">&copy; 2016 Design by William Harpley.</p>
     </a>
   </footer>
     <script src="http://code.jquery.com/jquery.js"></script>

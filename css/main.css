@@ -4,7 +4,6 @@ body {
 }
 
 h1 {
-	text-decoration: underline;
 	color: #fff;
 	
 }
@@ -17,7 +16,7 @@ h1 {
 h2 {
 	color: #26327b;
 	margin-top: 0;
-	text-decoration: underline;
+  font-weight: bold;
 }
 
 h3 {
@@ -26,12 +25,6 @@ h3 {
 }
 
 p {
-	color: #26327b;
-}
-
-.call {
-	font-family: 'Raleway', sans-serif;
-	display: inline;
 	color: #26327b;
 }
 
@@ -66,10 +59,24 @@ span.glyphicon {
 	height: 120px;
 }
 
+.head-container {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .main-logo {
 	width: 25%;
 	max-height: 200px;
-	margin-top: -45px;
+	margin-top: -60px;
+}
+
+.call {
+	font-family: 'Raleway', sans-serif;
+	display: inline;
+	color: #26327b;
 }
 
 /**************************
@@ -177,6 +184,10 @@ footer {
 footer .blue-head, h3,p {
 	color: #000;
 	font-weight: bold;
+}
+
+footer .main-logo {
+	background-color: #fff;
 }
 
 footer .row {
