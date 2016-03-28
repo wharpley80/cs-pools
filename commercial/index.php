@@ -3,7 +3,6 @@ $thisPage = "commercial";
 require_once('../inc/config.php');
 include(ROOT_PATH . 'inc/header.php'); 
 ?>
-
 <div id="commCarousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-container">
     <ol class="carousel-indicators">
@@ -49,6 +48,11 @@ include(ROOT_PATH . 'inc/header.php');
 </div> 
 <div class="container">
   <h1 class="blue-head">Commercial</h1>
+  <p class="page-cont">
+    Commercial Projects can be very difficult and time consuming, but we welcome the challenge. 
+    We take great pride in our Commercial Projects and take on anything from water slide parks to lap
+    lane pools.
+  </p>
   <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <a href="#" class="thumbnail" data-toggle="modal"><span data-id= "c1"></span>

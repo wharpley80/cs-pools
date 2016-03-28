@@ -1,34 +1,27 @@
   <footer>
     <h1 class="blue-head">Contact</h1>
+    <h1 class="foot-name">C.S. Pool Designs</h1>
     <img class="contact-logo" src="<?php echo BASE_URL; ?>img/logo.png">
     <h3>Call For a Free Estimate! (561) 441-9910</h3> 
     <div class="foot-container">
-      <div class="row">
-        <div class="col-xs-3">
-          <h3>Contractor</h3>
-        </div>
-        <div class="col-xs-3">
-          <h3>Swimming Pool</h3>
-        </div>
-        <div class="col-xs-3">
-          <h3>Refurbish</h3>
-        </div>
-        <div class="col-xs-3">
-          <h3>Outdoor Recreation</h3>
-        </div>
-      </div>
+      <h3><span class="glyphicon glyphicon-ok"></span>Custom Pool Designs</h3>
+      <h3><span class="glyphicon glyphicon-ok"></span>Remodel & Refurbish</h3>
+      <h3><span class="glyphicon glyphicon-ok"></span>Residential & Commercial</h3>
+      <h3><span class="glyphicon glyphicon-ok"></span>Outdoor Recreation</h3>
     </div>
     <p>Address: 4441 Caryota Dr. Boynton Beach, Fl.</p>
-    <p>Email: cspooldesigns@aol.com</p>
-    <p>Phone: (561) 441-9910</p>
     <a href="mailto:cspooldesigns@aol.com">
-      <img src="<?php echo BASE_URL; ?>img/icons/MailBox.png" alt="AOL Logo" class='contact-icon'>
+      <p class="email">Email: cspooldesigns@aol.com</p>
+    </a>
+    <p class="phone-num">Phone: (561) 441-9910</p>
+    <a href="mailto:cspooldesigns@aol.com">
+      <img src="<?php echo BASE_URL; ?>img/icons/MailBox.png" alt="AOL Logo" class='social-icon'>
     </a>
     <a href="https://www.facebook.com/CS-Pool-Designs-1558628061128519/">
-      <img src="<?php echo BASE_URL; ?>img/icons/fb-icon.png" alt="FB-logo" class="contact-icon">
+      <img src="<?php echo BASE_URL; ?>img/icons/fb-icon.png" alt="FB-logo" class="social-icon">
     </a>
     <a href="https://www.instagram.com/cspooldesigns/">
-      <img src="<?php echo BASE_URL; ?>img/icons/insta-icon.png" alt="Insta-logo" class="contact-icon">
+      <img src="<?php echo BASE_URL; ?>img/icons/insta-icon.png" alt="Insta-logo" class="social-icon">
     </a>
     <a href="http://williamharpleyportfolio.com/">
       <p class="designer">&copy; 2016 Design by William Harpley.</p>

@@ -3,6 +3,7 @@
 <head>
   <title>CS Pool Designs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Raleway" rel="stylesheet" type="text/css">
   <link href="<?php echo BASE_URL; ?>css/bootstrap.min.css" rel="stylesheet" media="screen">
   <link href="<?php echo BASE_URL; ?>css/bootstrap.css" rel="stylesheet" media="screen">
@@ -20,20 +21,21 @@
     </button>
     <div class="head-container">
       <h3 class="call">Call For a Free Estimate! (561) 441-9910</h3>
+      </br>
+      <a href="mailto:cspooldesigns@aol.com"><img src="<?php echo BASE_URL; ?>img/icons/MailBox.png" alt="AOL Logo" class="social-icon"></a>
+      <a href="https://www.facebook.com/CS-Pool-Designs-1558628061128519/"><img src="<?php echo BASE_URL; ?>img/icons/fb-icon.png" alt="FB-logo" class="social-icon"></a>  
+      <a href="https://www.instagram.com/cspooldesigns/"><img src="<?php echo BASE_URL; ?>img/icons/insta-icon.png" alt="Insta-logo" class="social-icon"></a>
     </div>
-   <img src="<?php echo BASE_URL; ?>img/logo.png" class="main-logo pull-left">
-     
-    <ul class="nav navbar-nav pull-right" id="top-icons">
-      <li>
-        <a href="mailto:cspooldesigns@aol.com"><img src="<?php echo BASE_URL; ?>img/icons/MailBox.png" alt="AOL Logo" class="social-icon"></a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/CS-Pool-Designs-1558628061128519/"><img src="<?php echo BASE_URL; ?>img/icons/fb-icon.png" alt="FB-logo" class="social-icon"></a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/cspooldesigns/"><img src="<?php echo BASE_URL; ?>img/icons/insta-icon.png" alt="Insta-logo" class="social-icon"></a>
-      </li>
-    </ul>
+    <a href="<?php echo BASE_URL; ?>">
+      <img src="<?php echo BASE_URL; ?>img/logo.png" class="main-logo pull-left">
+    </a>
+    <div class="head-info pull-right">
+      <h3>C.S. Pool Designs</h3>
+      <p>Start Planning Your Dream Pool Today!
+      </p>
+    </div>
+  </div>
+  <div class="bar">
   </div>
   <div class="collapse navbar-collapse">
     <ul class="nav navbar-nav pull-right">

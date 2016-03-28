@@ -70,13 +70,25 @@ span.glyphicon {
 .main-logo {
 	width: 25%;
 	max-height: 200px;
-	margin-top: -60px;
+	margin-top: -160px;
+}
+
+.head-info {
+	width: 20%;
+  margin-top: -120px;
+  text-align: left;
+  color: #26327b;
 }
 
 .call {
 	font-family: 'Raleway', sans-serif;
 	display: inline;
 	color: #26327b;
+}
+
+.bar {
+	height: 30px;
+	background-color: #26327b;
 }
 
 /**************************
@@ -103,6 +115,7 @@ span.glyphicon {
 .social-icon {
 	height: 40px;
 	width: 40px;
+	margin: 20px;
 }
 
 /**************************
@@ -133,6 +146,38 @@ span.glyphicon {
 .home-img {
 	width: 90%;
 	border: 2px solid #26327b;
+}
+
+.us-cont {
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-head {
+	color: #fff;
+}
+
+.about {
+	color: #fff;
+	font-size: 1.5em;
+	margin-top: 30px;
+}
+
+.content {
+	color: #000;
+	font-size: 1.5em;
+	margin: 30px 10px;
+	line-height: 1.5em;
+	text-align: left;
+}
+
+.page-cont {
+	color: #000;
+	font-size: 1.5em;
+	margin: 0 10px 30px 10px;
+	line-height: 1.5em;
+	text-align: left;
 }
 
 .btn-primary {
@@ -176,14 +221,31 @@ span.glyphicon {
 footer {
 	/*background-color: #EDEDED;*/
 	background: url('../img/pool_blue.jpg') repeat-y;
+	background-size: cover;
   text-align: center;
   height: 100%;
+  width: 100%;
   margin-top: -20px;
 }
 
-footer .blue-head, h3,p {
+footer .blue-head {
 	color: #000;
 	font-weight: bold;
+}
+
+footer h3 {
+	color: #000;
+	font-weight: bold;
+}
+
+footer p {
+	color: #000;
+	font-weight: bold;
+}
+
+.foot-name {
+	color: #000;
+	font-size: 4em;
 }
 
 footer .main-logo {
@@ -202,18 +264,21 @@ footer .row {
 }
 
 .foot-container {
-	width: 75%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-
+  margin-bottom: 30px;
 }
 
 .contact-icon {
 	height: 40px;
 	width: 40px;
 	margin: 20px;
-	position:relative;
-	/*margin-top: 100px;*/
+	position: relative;
+}  
+
+.email:hover {
+	color: #fff;
 }
 
 .designer:hover {
@@ -223,6 +288,16 @@ footer .row {
 /*****************************
 			MEDIA QUERIES
 *****************************/
+
+@media (max-width: 998px) {
+	.head-info {
+  	margin-top: -140px;
+  }
+
+  .btn-primary {
+  	display: none;
+  }
+}
 
 @media (max-width: 800px) {
 
@@ -239,7 +314,7 @@ footer .row {
 	}
 
 	p{
-		font-size: .75em
+		font-size: .75em;
 	}
 
 	.container {
@@ -249,6 +324,14 @@ footer .row {
 	.row {
 		margin-top: 60px;
 	}
+
+	.main-logo {
+  	margin-top: -80px;
+  }
+
+  .head-info {
+  	margin-top: -30px;
+  }
 
 	.call {
   	font-size: .75em;
@@ -270,19 +353,30 @@ footer .row {
 		height: 200px;
 	}
 
-  #top-icons {
-  	display: none;
-  }
+	.us-cont {
+		width: 300px;
+	}
 
-  .btn-primary {
-  	display: none;
-  }
+	.about-head {
+		color: #fff;
+	}
 
-  .main-logo {
-  	margin-top: -40px;
-  }
+	.about {
+		color: #fff;
+		font-size: .75em;
+		margin-top: 30px;
+	}
 
-  .contact-icon {
+	.content {
+		font-size: .75em;
+	}
+
+	.page-cont {
+		font-size: .75em;
+		margin-bottom: 30px;
+	}
+
+  .social-icon {
 		height: 20px;
 		width: 20px;
 		margin: 10px;
@@ -294,20 +388,13 @@ footer .row {
 }
 
 @media (max-width: 650px) {
-	.main-logo {
-  	width: 40%;
-  	margin-top: -20px;
-  }
 
-  .navbar-header {
-		height: 100%;
-	}
-  h1 {
-		font-size: 1em;
+	h1 {
+		font-size: 1.5em;
 	}
 
 	h2 {
-		font-size: .9em;
+		font-size: 1.25em;
 	}
 
   h3 {
@@ -318,9 +405,35 @@ footer .row {
 		font-size: .5em
 	}
 
+  .navbar-header {
+		height: 140px;
+	}
+
+	.main-logo {
+		width: 40%;
+  	margin-top: -70px;
+  }
+
   .call {
   	font-size: .50em;
   }
+
+  .blue-head {
+  	margin-bottom: 0;
+  }
+
+  .foot-name {
+		color: #000;
+		font-size: 2em;
+		margin-top: 0;
+	}
+
+	@media (max-width: 550px) {
+
+		.main-logo {
+	  	margin-top: -40px;
+	  }
+	}
 }
 
 

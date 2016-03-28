@@ -48,6 +48,11 @@ include(ROOT_PATH . 'inc/header.php');
 </div> 
 <div class="container">
   <h1 class="blue-head">Residential</h1>
+  <p class="page-cont">
+    We personally enjoy going through the building process with our Residential Clients. Wheather the 
+    Homeowner knows exactly what they want or if they need a little inspiration. We love making your backyard
+    dreams come true.
+  </p>
   <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <a href="#" class="thumbnail" data-toggle="modal"><span data-id= "r1"></span>

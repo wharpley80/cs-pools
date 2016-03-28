@@ -48,6 +48,11 @@ include(ROOT_PATH . 'inc/header.php');
 </div> 
 <div class="container">
   <h1 class="blue-head">Paver Decks</h1>
+  <p class="page-cont">
+    Not only will we install your paver patio around your pool with professional quality. We will also
+    install your driveway and any other side walk or walk way around your property. Our crew is experienced 
+    in any type of paver. Such as concrete pavers, marble pavers, and travertine pavers.
+  </p>
   <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <a href="#" class="thumbnail" data-toggle="modal"><span data-id= "d1"></span>

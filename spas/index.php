@@ -48,6 +48,11 @@ include(ROOT_PATH . 'inc/header.php');
 </div> 
 <div class="container">
   <h1 class="blue-head">Spas</h1>
+  <p class="page-cont">
+    Many of our spas are combined wih pools, and our plumbing for our pool/spa combos are the most functional
+    and easiest to maintain in the pool bussiness. In our spas alone our superior plumbing allows us to create
+    a delightful whirlpool experience for you!
+  </p>
   <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <a href="#" class="thumbnail" data-toggle="modal"><span data-id= "s1"></span>

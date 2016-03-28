@@ -48,6 +48,11 @@ include(ROOT_PATH . 'inc/header.php');
 </div> 
 <div class="container">
   <h1 class="blue-head">Water Features</h1>
+  <p class="page-cont">
+    Water Features are by far our favorite part of building pools. From slides and illuminated deck 
+    spitters to water walls and waterfalls. With our superior knowledge of hydraulics and our love 
+    for fun in the water. We are the company to make those dreams come true!
+  </p>
   <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <a href="#" class="thumbnail" data-toggle="modal"><span data-id= "f1"></span>

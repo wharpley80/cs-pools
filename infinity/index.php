@@ -48,6 +48,11 @@ include(ROOT_PATH . 'inc/header.php');
 </div> 
 <div class="container">
   <h1 class="blue-head">Infinity Edge</h1>
+  <p class="page-cont">
+    Just like our other water features we take a lot of pride in our infinity edge. This type of pool isn't 
+    just a feature it's a complete style of hardscape which depends on surrounding landscapes to create the 
+    best effect. 
+  </p>
   <div class="row" id="grid-row">
     <div class="col-md-4" id="photo-grid">
       <a href="#" class="thumbnail" data-toggle="modal"><span data-id= "i1"></span>
