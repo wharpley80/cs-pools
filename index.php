@@ -35,7 +35,7 @@ include(ROOT_PATH . 'inc/header.php');
     <p class="about">
       We are a small family owned company. We have been building residential and commercial pools in Florida,
       up the east coast all the way to Boston, and in the far reaches of the Carribean Sea. We have been in bussiness
-      for 15 years, but have well over 65 combined years of experience between the 4 of us.
+      for 15 years, but we have over 65 combined years of experience between our 4 supervisors alone.
     </p>
   </div>
 </div>

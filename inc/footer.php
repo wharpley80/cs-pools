@@ -15,16 +15,16 @@
     </a>
     <p class="phone-num">Phone: (561) 441-9910</p>
     <a href="mailto:cspooldesigns@aol.com">
-      <img src="<?php echo BASE_URL; ?>img/icons/MailBox.png" alt="AOL Logo" class='social-icon'>
+      <img src="<?php echo BASE_URL; ?>img/icons/Email.png" alt="AOL Logo" class='social-icon'>
     </a>
     <a href="https://www.facebook.com/CS-Pool-Designs-1558628061128519/">
-      <img src="<?php echo BASE_URL; ?>img/icons/fb-icon.png" alt="FB-logo" class="social-icon">
+      <img src="<?php echo BASE_URL; ?>img/icons/Facebook.png" alt="FB-logo" class="social-icon">
     </a>
     <a href="https://www.instagram.com/cspooldesigns/">
-      <img src="<?php echo BASE_URL; ?>img/icons/insta-icon.png" alt="Insta-logo" class="social-icon">
+      <img src="<?php echo BASE_URL; ?>img/icons/Instagram.png" alt="Insta-logo" class="social-icon">
     </a>
     <a href="http://williamharpleyportfolio.com/">
-      <p class="designer">&copy; 2016 Design by William Harpley.</p>
+      <p class="designer">&copy; 2016 by William Harpley.</p>
     </a>
   </footer>
     <script src="http://code.jquery.com/jquery.js"></script>

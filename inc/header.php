@@ -22,9 +22,9 @@
     <div class="head-container">
       <h3 class="call">Call For a Free Estimate! (561) 441-9910</h3>
       </br>
-      <a href="mailto:cspooldesigns@aol.com"><img src="<?php echo BASE_URL; ?>img/icons/MailBox.png" alt="AOL Logo" class="social-icon"></a>
-      <a href="https://www.facebook.com/CS-Pool-Designs-1558628061128519/"><img src="<?php echo BASE_URL; ?>img/icons/fb-icon.png" alt="FB-logo" class="social-icon"></a>  
-      <a href="https://www.instagram.com/cspooldesigns/"><img src="<?php echo BASE_URL; ?>img/icons/insta-icon.png" alt="Insta-logo" class="social-icon"></a>
+      <a href="mailto:cspooldesigns@aol.com"><img src="<?php echo BASE_URL; ?>img/icons/Email.png" alt="AOL Logo" class="social-icon"></a>
+      <a href="https://www.facebook.com/CS-Pool-Designs-1558628061128519/"><img src="<?php echo BASE_URL; ?>img/icons/Facebook.png" alt="FB-logo" class="social-icon"></a>  
+      <a href="https://www.instagram.com/cspooldesigns/"><img src="<?php echo BASE_URL; ?>img/icons/Instagram.png" alt="Insta-logo" class="social-icon"></a>
     </div>
     <a href="<?php echo BASE_URL; ?>">
       <img src="<?php echo BASE_URL; ?>img/logo.png" class="main-logo pull-left">
