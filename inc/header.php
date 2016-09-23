@@ -1,7 +1,9 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <title>CS Pool Designs</title>
+  <link rel="icon" href="<?php echo BASE_URL; ?>img/pool_favicon.ico" type="image/x-icon">
+  <title>CS Pool Designs | Custom Pool Designs, Residential & Commercial, Outdoor Recreation, Remodel & Refurbish,
+    Florida's Custom Pool Contractors</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="format-detection" content="telephone=no">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Raleway" rel="stylesheet" type="text/css">
